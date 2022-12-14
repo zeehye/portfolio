@@ -1,0 +1,589 @@
+body {
+    color: #000000;
+    background-color: #D4DCD5;
+    font-family: 'pretendard', 'Gilroy';
+}
+
+.mainSec {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 94px;
+    background-color: #F06334;
+    background: url('../img/main_bg.png') ;
+}
+
+.main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.main h1 {
+    /* margin-top: calc(100vh * 70 / 1920); */
+    font-size: calc(100vw * 100 / 1920);
+    font-family: 'Gilroy';
+}
+
+.main p {
+    font-size: 1.2em;
+    margin-top: calc(100vh * 10.5 / 1080);
+
+}
+.mainImage img{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+/* 두번쨰 섹션 */
+.sec1 {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    background: #D4DCD5;
+}
+
+.sec1_left {
+    width: 61.4vw;
+    /* float: left; */
+    display: inline-block;
+}
+
+.sec1_left .personPart {
+    position: absolute;
+    top: calc(100vh * 283 / 1080);
+    left: 25vw;
+}
+
+.sec1_left .imgPart1 {
+    position: absolute;
+    top: calc(100vh * 238 / 1080);
+    left: 16vw;
+}
+
+.sec1_left .imgPart2 {
+    position: absolute;
+    top: calc(100vh * 222 / 1080);
+    left: 41vw;
+}
+
+.sec1_left .imgPart3 {
+    position: absolute;
+    top: calc(100vh * 453 / 1080);
+    left: 20vw;
+}
+
+.sec1_left .imgPart4 {
+    position: absolute;
+    top: calc(100vh * 752 / 1080);
+    left: 16vw;
+}
+
+.sec1_left .imgPart5 {
+    position: absolute;
+    top: calc(100vh * 832 / 1080);
+    left: 19.6vw;
+}
+
+.sec1_left .imgPart6 {
+    position: absolute;
+    top: calc(100vh * 770 / 1080);
+    left: 45.7vw;
+}
+
+.sec1_right {
+    display: inline-block;
+    margin-top: calc(100vh * 280 / 1080);
+    height: 28.6vw;
+}
+
+.sec1_right .infoText1 {
+    font-size: 1.04vw;
+    color: #F06334;
+    font-weight: 800;
+}
+
+.sec1_right .infoText2 {
+    font-size: 4.1vw;
+    color: #000000;
+    font-weight: 800;
+    font-family: 'Gilroy';
+}
+
+.sec1_right .infoText3 {
+    font-size: 2vw;
+    color: #BDBDBD;
+    font-weight: 800;
+    margin-left: 8.1vw;
+}
+
+.sec1_right .infoText4 {
+    font-size: 1.5vw;
+    color: #000000;
+    font-weight: 800;
+    margin-top: calc(100vh * 65 / 1080);
+}
+
+.sec1_right .infoText5 {
+    font-size: 1vw;
+    color: #000000;
+    font-weight: 400;
+    margin-top: calc(100vh * 25 / 1080);
+    width: 31vw;
+    line-height: 160%;
+}
+/* 스킬(툴사용능력) */
+.sec2 {
+    margin-top: 8vw;
+    width: 100vw;
+    height: 40vw;
+    position: relative;
+    display: flex;
+    background: #F06334;
+
+}
+.sec2 h3 {
+    font-size: 44px;
+    font-family: 'Gilroy';
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: 6vw;
+}
+.sec2 .skillContainer {
+    width: 100%;
+    display: flex;
+    margin-top: 13vw;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 80px 100px;
+    overflow: hidden;
+    height: 300px;
+}
+.sec2 .skillContainer .skillBox {
+    position: relative;
+    width: 240px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec2 .skillContainer .skillImg {
+    text-align: center;
+
+}
+.sec2 .skillContainer .skillText p{
+    text-align: center;
+    margin-top: 2.1vw;
+    width: 13.8vw;
+    font-size: 16px;
+    font-weight: 500;
+    
+}
+
+.projectArea {
+    position: absolute;
+    text-align: center;
+    width: 100vw;
+    font-size: 44px;
+    font-family: 'Gilroy';
+    font-weight: 800;
+    margin-top: 2vw;
+}
+/* 스와이퍼 섹션 */
+.sec3 {
+    margin-top: 5vw;
+    width: 100vw;
+    height: calc(100vw * 1000 / 1920);
+    position: relative;
+    display: flex;
+    background: #D4DCD5;
+}
+.swiper {
+    width: 100%;
+    height: calc(100vw * 800 / 1920);
+    /* border: solid 1px blue; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4vw;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #D4DCD5;
+    width: 49.4vw;
+    height: 27.8vw;
+    margin-top: 2vw;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide .slideImg {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+.slideText {
+    position: absolute;
+    margin-top: 39vw;
+    width: 49vw;
+
+}
+.slideText h6 {
+    width: 40vw;
+    margin-bottom: 0.3vw;
+    color: #F06334;
+    text-align: left;
+    font-size: 15px;
+    font-weight: bold;
+}
+.slideText p {
+    width: 40vw;
+    margin-bottom: 1vw;
+    color: #000000;
+    z-index: 5;
+    text-align: left;
+    font-size: 15px;
+}
+
+
+.swiper-button-next {
+    background: url('../img/next.png') no-repeat;
+    background-size: 70% auto;
+    /* background-position: center; */
+    margin-right: 18.5vw;
+}
+
+.swiper-button-prev {
+    background: url('../img/prev.png') no-repeat;
+    background-size: 70% auto;
+    margin-left: 18.5vw;
+}
+.swiper-pagination-bullet-active {
+    background-color: #F06334;
+}
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    display: none;
+}
+
+/* 4번째 섹션 */
+.sec4 {
+    margin-top: 5vw;
+    width: 100vw;
+    height: calc(100vw * 500 / 1920);
+    position: relative;
+    display: flex;
+    background: #D4DCD5;
+}
+.mentSection {
+    position: absolute;
+    margin-left: 8.8vw;
+}
+.ment1 {
+    font-size: 50px;
+    font-family: 'Gilroy';
+    font-weight: 800;
+    color: #F06334;
+}
+.ment2 {
+    font-size: 20px;
+    line-height: 150%;
+}
+.bannerWrap1 { 
+    height: 100px; 
+    width: 100vw;
+    position: absolute; 
+    overflow: hidden; 
+    margin-top: 19vw;
+}
+.bannerWrap1 img { 
+    /* height: 80px;  */
+    width: auto;
+    display: inline;
+    position: absolute;
+    margin: 0 4vw;
+}
+.bannerWrap2 { 
+    height: 100px; 
+    width: 100vw;
+    position: absolute; 
+    overflow: hidden; 
+    margin-top: 22vw;
+}
+.bannerWrap2 img { 
+    /* height: 80px;  */
+    width: auto;
+    display: inline;
+    position: absolute;
+    margin: 0 4vw;
+}
+footer {
+    width: 100vw;
+    height: calc(100vw * 342 / 1920);
+    position: relative;
+    background: #F06334;
+    bottom: 0;
+}
+footer .contact {
+    margin-left: 8.8vw;
+}
+footer .contact .contactUl {
+    padding-top: 4.3vw;
+}
+footer .contactList a{
+    text-decoration: none;
+    color: #000000;
+}
+footer img {
+    vertical-align: middle;
+    display: inline-block;
+}
+footer .contact ul li p {
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 40px;
+    font-family: 'Gilroy';
+    font-weight: 800;
+    margin-left: 0.8vw;
+}
+footer .copyright .copyrightText{
+    position: relative;
+    width: 100vw;
+    color: #000000;
+    text-align: center;
+    margin-top: 2.8vw;
+}
+
+/* 모바일용 CSS ----------------------------------------------------*/
+/* 기본 CSS */
+.container {
+    width: 90%;
+    max-width: 1132px;
+    margin: 0 auto;
+}
+
+.cfixed:after,
+.container:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.blind {
+    position: absolute;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    text-indent: -9999px;
+    overflow: hidden;
+}
+
+.sec-tit {
+    font-size: 42px;
+    color: #000000;
+    font-weight: normal;
+}
+
+.divider {
+    width: 90%;
+    max-width: 1132px;
+    margin: 0 auto;
+    margin-top: 77px;
+    background: #eee;
+}
+
+.m-divider {
+    width: 20px;
+    margin: 0 auto;
+    margin-top: 77px;
+    background: #000000;
+}
+
+/* 헤더 영역 CSS */
+
+.header {
+    position: relative;
+    top: 0;
+    padding: 18px 5%;
+    /* background-color: #f0633400; */
+    z-index: 3;
+}
+
+.header .logo {
+    float: left;
+}
+.header img {
+    animation: rotate_image 10s linear infinite;
+}
+@keyframes rotate_image{
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.header .logo a {
+    font-size: 26px;
+    color: #000000;
+    font-weight: normal;
+}
+
+.header .gnb {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: #F06334;
+}
+
+.header .gnb li {
+    border-bottom: 1px solid #000000;
+}
+
+.header .gnb li a {
+    display: block;
+    padding: 14px 0 14px 5%;
+    font-size: 14px;
+    color: #000000;
+    font-family: 'Gilroy';
+}
+
+.header .menu-toggle-btn {
+    float: right;
+    width: 20px;
+    margin-top: calc(100vh * 20 / 1080);
+    cursor: pointer;
+}
+
+.header .menu-toggle-btn span {
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: #000000;
+}
+
+.header .menu-toggle-btn span:nth-child(2) {
+    margin: 5px 0;
+}
+
+/* 슬라이더 영역 CSS */
+.slider img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.main_bg img {
+    width: 100%;
+    z-index: -10;
+    max-width: 100%;
+    position: absolute;
+
+}
+
+
+/* 푸터 영역 CSS */
+.footer {
+    /* margin-top: 104px; */
+    bottom: 0;
+}
+
+.footer iframe {
+    width: 100%;
+    height: 320px;
+}
+
+/* .footer .copyrightText {
+    margin: 21px 0;
+    color: #000000;
+    text-align: center;
+} */
+
+/* 태블릿용 CSS ----------------------------------------------------*/
+@media all and (min-width:768px) {
+
+    /* 기본 CSS */
+    .divider {
+        margin-top: 124px;
+    }
+
+    .m-divider {
+        margin-top: 124px;
+    }
+
+    /* 헤더 영역 CSS */
+
+    .header {
+        position: static;
+        /* position: fixed; */
+        padding: 20px 60px;
+    }
+
+    .header .gnb {
+        display: block !important;
+        position: static;
+        z-index: 9;
+        float: right;
+        width: auto;
+        margin-top: calc(100vh * 15 / 1080);
+        background: none;
+    }
+
+    .header .gnb li {
+        float: left;
+        margin-left: 30px;
+        border-bottom: 0;
+    }
+
+    .header .gnb li a {
+        padding: 0;
+        font-size: 20px;
+        font-weight: 700;
+        color: #000000;
+    }
+
+    .header .menu-toggle-btn {
+        display: none !important;
+    }
+
+}
+
+/* PC용 CSS ----------------------------------------------------*/
+@media all and (min-width:1132px) {
+
+    .header {
+        position: fixed;
+        left: 0;
+        right: 0;
+        /* backdrop-filter: blur(5px); */
+    }
+
+    section .sec1 {
+        /* width: 100vw; */
+        height: 100vh;
+    }
+
+
+
+}
